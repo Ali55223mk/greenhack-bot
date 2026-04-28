@@ -1,5 +1,1 @@
-[phases.build]
-cmds = ["pip install -r requirements.txt"]
 
-[start]
-cmd = "py mybot.py"
