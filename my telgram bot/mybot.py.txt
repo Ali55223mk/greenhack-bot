@@ -30,8 +30,9 @@ from telegram.ext import (
 # ══════════════════════════════════════════════
 #  ضع توكن البوت هنا  (من @BotFather)
 # ══════════════════════════════════════════════
-BOT_TOKEN = "8598787104:AAE5b4VDDrVIcTjWt7UwqxpuEyIis4vFP7E"
-
+# اكتب
+import os
+BOT_TOKEN = os.environ.get("8598787104:AAE5b4VDDrVIcTjWt7UwqxpuEyIis4vFP7E", "")
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
     level=logging.INFO,
